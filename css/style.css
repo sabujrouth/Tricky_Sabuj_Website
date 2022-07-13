@@ -105,7 +105,7 @@ img {
 }
 
 nav {
-    background: red;
+    background: transparent;
     width: 100vw;
     height: 5rem;
     position: fixed;
@@ -133,7 +133,7 @@ nav button {
 
 .nav_menu a {
     font-size: 0.9rem;
-    transition: all 450ms ease;
+    transition: var(--transition);
 }
 
 .nav_menu a:hover {
