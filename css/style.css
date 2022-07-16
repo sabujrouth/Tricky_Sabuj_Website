@@ -116,7 +116,7 @@ nav {
 
 /* cahnge navbar styles on scrolling using javascript */
 .window-scroll {
-    background-color: var(--color-primary);
+    background-color: var(--color-bg1);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
@@ -350,15 +350,57 @@ header {
     content: "";
     display: block;
     background: linear-gradient(135deg,
-    transparent,
-    var(--color-primary),
-    var(--color-primary),
-    var(--color-primary)
-    );
+            transparent,
+            var(--color-primary),
+            var(--color-primary),
+            var(--color-primary));
     width: 3rem;
     height: 3rem;
     position: absolute;
     left: 50%;
     top: -1.5rem;
     transform: rotate(45deg);
+}
+
+/* Footer style using css */
+.footer {
+    background: var(--color-bg1);
+    padding-top: 5rem;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer_container>div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.footer_1 p {
+    margin: 0 0 2rem;
+}
+
+.footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer_copyright {
+    background: var(--color-bg2);
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    box-shadow: inset 0 0 2rem rgba(0, 0, 0, 0.5);
 }
