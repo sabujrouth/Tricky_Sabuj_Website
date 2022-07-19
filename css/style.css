@@ -26,7 +26,6 @@
     --container-width-sm: 94%;
 
     --transition: all 400ms ease;
-    /* cccccccccccccccccccccccccccccccccccccccccc */
     --border-radius: 5px;
 }
 
@@ -85,7 +84,7 @@ img {
     object-fit: cover;
 }
 
-/* Navbar Style Using CSS */
+/* ====================================Navbar Style Using CSS==================================== */
 .btn {
     display: inline-block;
     background: var(--color-white);
@@ -117,7 +116,7 @@ nav {
     z-index: 11;
 }
 
-/* cahnge navbar styles on scrolling using javascript */
+/* ====================================Cahnge Navbar Styles on Scrolling Using Javascript==================================== */
 .window-scroll {
     background-color: var(--color-bg1);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
@@ -149,7 +148,7 @@ nav button {
     color: var(--color-bg2);
 }
 
-/* Header Style Using CSS */
+/* ====================================Categories Style Using CSS==================================== */
 header {
     position: relative;
     top: 5rem;
@@ -170,7 +169,7 @@ header {
     margin: 1rem 0 2.4rem;
 }
 
-/* Categories Style Using CSS */
+/* ====================================Categories Style Using CSS==================================== */
 .categories {
     background: var(--color-bg1);
     height: 33rem;
@@ -242,7 +241,7 @@ header {
     font-size: 0.85rem;
 }
 
-/* Courses Style Using CSS */
+/* ====================================Courses Style Using CSS==================================== */
 .courses {
     margin-top: 10rem;
 }
@@ -280,7 +279,7 @@ header {
     font-size: 0.9rem;
 }
 
-/* FAQs CSS */
+/* ====================================FAQs CSS==================================== */
 .faqs {
     background: var(--color-bg1);
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
@@ -323,7 +322,7 @@ header {
 }
 
 
-/* Testimonials style using css */
+/* ====================================Testimonials style using css==================================== */
 
 .testimonials_container {
     overflow-x: hidden;
@@ -513,7 +512,7 @@ footer ul li a:hover {
 
         100% {
             transform: rotateZ(0) rotateX(0) scale(1);
-            opacity: 1; 
+            opacity: 1;
         }
     }
 
@@ -533,4 +532,60 @@ footer ul li a:hover {
 
     }
 
+    /* ====================================HEADER==================================== */
+
+    header {
+        height: 52vh;
+        margin-bottom: 4rem;
+    }
+
+    .header_container {
+        gap: 0;
+        padding-bottom: 3rem;
+    }
+
+    /* ====================================CATEGORIES==================================== */
+
+    .categories {
+        height: auto;
+    }
+
+    .categories_container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .categories_left {
+        margin-right: 0;
+    }
+
+    /* ====================================POPULAR COURSES==================================== */
+
+    .courses {
+        margin-top: 0;
+    }
+
+    .courses_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ====================================FAQ==================================== */
+    .faqs_container {
+        grid-template-columns: 1fr;
+    }
+
+    .faq {
+        padding: 1.5rem;
+    }
+
+    /* ====================================FOOTER==================================== */
+    .footer_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer_copyright {
+        gap: 5rem;
+    }
 }
