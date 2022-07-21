@@ -21,7 +21,7 @@
     --color-bg1: #2e3267;
     --color-bg2: #424890;
 
-    --container-width-1g: 76%;
+    --container-width-1g: 80%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
 
@@ -421,7 +421,7 @@ footer ul li a:hover {
     box-shadow: inset 0 0 2rem rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    gap: 18rem;
+    gap: 20rem;
 }
 
 .font_weight {
@@ -601,7 +601,7 @@ footer ul li a:hover {
     }
 
     .footer_copyright {
-        gap: 5rem;
+        gap: 4rem;
     }
 }
 
