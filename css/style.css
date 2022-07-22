@@ -416,12 +416,18 @@ footer ul li a:hover {
 
 .footer_copyright {
     background: var(--color-bg2);
-    text-align: center;
     padding: 5px;
     box-shadow: inset 0 0 2rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.copyright_width {
+    width: var(--container-width-1g);
+    text-align: center;
     display: flex;
-    justify-content: center;
-    gap: 20rem;
+    /* margin: 0 10%; */
+    gap: 19rem;
+    
 }
 
 .font_weight {
