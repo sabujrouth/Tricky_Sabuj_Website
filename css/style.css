@@ -21,7 +21,7 @@
     --color-bg1: #2e3267;
     --color-bg2: #424890;
 
-    --container-width-1g: 80%;
+    --container-width-1g: 90%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
 
@@ -423,8 +423,8 @@ footer ul li a:hover {
 .copyright_width {
     width: var(--container-width-1g);
     display: flex;
-    margin: 0 10%;
-    gap: 19.2rem;
+    margin: 0 5%;
+    gap: 24rem;
     
 }
 
@@ -606,7 +606,7 @@ footer ul li a:hover {
 
     .copyright_width {
         width: var(--container-width-md);
-        gap: 9.1rem;
+        gap: 9.6rem;
         margin: 0 5%;
     }
 }
