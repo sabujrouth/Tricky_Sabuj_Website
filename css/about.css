@@ -2,16 +2,17 @@
 
 .about_achievements {
     margin-top: 3rem;
+    padding: 5rem 0;
 }
 
 .about_achievements-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 5rem;
 }
 
 .about_achievements-left {
     margin-top: 5rem;
+    width: 95%;
 }
 
 .about_achievements-right>p {
@@ -96,4 +97,8 @@
 
 .footer_container {
     margin-top: 4rem;
+}
+
+.team_member-info p {
+    color: var(--color-light);
 }
