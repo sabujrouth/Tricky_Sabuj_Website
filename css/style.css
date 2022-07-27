@@ -425,7 +425,7 @@ footer ul li a:hover {
     display: flex;
     margin: 0 5%;
     gap: 24rem;
-    
+
 }
 
 .font_weight {
@@ -608,6 +608,17 @@ footer ul li a:hover {
         width: var(--container-width-md);
         gap: 9.6rem;
         margin: 0 5%;
+    }
+}
+
+/* ============================================================================================================================================= */
+@media screen and (max-width: 960px) {
+    header {
+        height: 69vh;
+    }
+
+    .copyright_width {
+        gap: 80px;
     }
 }
 
