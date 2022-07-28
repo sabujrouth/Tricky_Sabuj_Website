@@ -70,11 +70,12 @@
 
 .team_member {
     background: var(--color-bg2);
-    padding: 2rem;
+    padding: 1.5rem;
     border: 1px solid transparent;
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .team_member:hover {
@@ -83,12 +84,13 @@
 }
 
 .team_member-image img {
-    filter: saturate(0);
+    /* filter: saturate(0); */
+    border-radius: 10px;
 }
 
-.team_member:hover img {
+/* .team_member:hover img {
     filter: saturate(1);
-}
+} */
 
 .team_member-info * {
     text-align: center;
@@ -115,8 +117,42 @@
     background: var(--color-primary);
     border-radius: 1rem 0 0 1rem;
     box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+
+.team_member:hover .team_member-socials {
+    right: 0;
 }
 
 .team_member-socials a {
     padding: 1rem;
+}
+
+
+/* ==============================MEDIA QUARIES FOR 1024======================================= */
+
+@media screen and (max-width: 1024px) {
+    .about_achievements {
+        margin-top: 2rem;
+    }
+
+    .about_achievements-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .about_achievements-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .team_container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .team_member {
+        padding: 1rem;
+    }
 }
