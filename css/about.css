@@ -125,7 +125,7 @@
 }
 
 
-/* ==============================MEDIA QUARIES FOR 1024======================================= */
+/* ==============================MEDIA QUARIES FOR TABLET======================================= */
 
 @media screen and (max-width: 1024px) {
     .about_achievements {
@@ -149,5 +149,27 @@
 
     .team_member {
         padding: 1rem;
+    }
+}
+
+/* ==============================MEDIA QUARIES FOR MOBILE======================================= */
+
+@media screen and (max-width: 600px) {
+    .achievements_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .team_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .team_member {
+        padding: 0;
+    }
+
+    .team_member p {
+        margin-bottom: 1.5rem;
     }
 }
