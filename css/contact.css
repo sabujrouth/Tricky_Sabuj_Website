@@ -73,3 +73,16 @@
     width: 50%;
 }
 
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-bg);
+    color: var(--color-white);
+    border-radius: 5px;
+}
+
+.contact_form .btn {
+    width: max-content;
+    margin-top: 1rem;
+    cursor: pointer;
+}
