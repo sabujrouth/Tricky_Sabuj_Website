@@ -73,7 +73,8 @@
     width: 50%;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1rem;
     background: var(--color-bg);
@@ -85,4 +86,26 @@ input, textarea {
     width: max-content;
     margin-top: 1rem;
     cursor: pointer;
+}
+
+
+/* ==========================================MEDIA QUARIES FOR TABLET=================================== */
+
+@media screen and (max-width: 1024px) {
+    .contact_container {
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .contact_aside {
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .contact_form {
+        align-self: center;
+    }
 }
