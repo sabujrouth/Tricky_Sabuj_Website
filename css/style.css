@@ -84,7 +84,7 @@ img {
     object-fit: cover;
 }
 
-/* ====================================Navbar Style Using CSS==================================== */
+/* Navbar Style Using CSS */
 .btn {
     display: inline-block;
     background: var(--color-white);
@@ -116,7 +116,7 @@ nav {
     z-index: 11;
 }
 
-/* ====================================Cahnge Navbar Styles on Scrolling Using Javascript==================================== */
+/* Change Navbar Styles on Scrolling Using Javascript */
 .window-scroll {
     background-color: var(--color-bg1);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
@@ -148,7 +148,7 @@ nav button {
     color: var(--color-bg2);
 }
 
-/* ====================================Categories Style Using CSS==================================== */
+/* Header Style Using CSS */
 header {
     position: relative;
     top: 5rem;
@@ -169,7 +169,7 @@ header {
     margin: 1rem 0 2.4rem;
 }
 
-/* ====================================Categories Style Using CSS==================================== */
+/* Categories Style Using CSS */
 .categories {
     background: var(--color-bg1);
     height: 33rem;
@@ -241,7 +241,7 @@ header {
     font-size: 0.85rem;
 }
 
-/* ====================================Courses Style Using CSS==================================== */
+/* Courses Style Using CSS */
 .courses {
     margin-top: 10rem;
 }
@@ -279,7 +279,7 @@ header {
     font-size: 0.9rem;
 }
 
-/* ====================================FAQs CSS==================================== */
+/* FAQs Style Using CSS */
 .faqs {
     background: var(--color-bg1);
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
@@ -322,7 +322,7 @@ header {
 }
 
 
-/* ====================================Testimonials style using css==================================== */
+/* Testimonials Style Using CSS */
 
 .testimonials_container {
     overflow-x: hidden;
@@ -371,7 +371,7 @@ header {
     transform: rotate(45deg);
 }
 
-/* Footer style using css */
+/* Footer Style Using CSS */
 .footer {
     background: var(--color-bg1);
     padding-top: 5rem;
@@ -437,13 +437,9 @@ footer ul li a:hover {
     box-shadow: inset 0 -3px 0 0 rgba(0, 255, 0, 0.70);
 }
 
-/* =====================================Media Quaries for TABLETS============================================================================== */
+/* Media Quaries for TABLETS */
 
 @media screen and (max-width: 1024px) {
-    /* body {
-        background: rgb(7, 159, 116);
-    } */
-
     .container {
         width: var(--container-width-md);
     }
@@ -464,7 +460,7 @@ footer ul li a:hover {
         font-size: 1.2rem;
     }
 
-    /* ====================================NAVBAR==================================== */
+    /* NAVBAR Style Using CSS */
     nav button {
         display: inline-block;
         background: transparent;
@@ -535,7 +531,7 @@ footer ul li a:hover {
 
     }
 
-    /* ====================================HEADER==================================== */
+    /* HEADER Style Using CSS */
 
     header {
         height: 52vh;
@@ -547,7 +543,7 @@ footer ul li a:hover {
         padding-bottom: 3rem;
     }
 
-    /* ====================================CATEGORIES==================================== */
+    /* CATEGORIES Style Using CSS */
 
     .categories {
         height: auto;
@@ -562,7 +558,7 @@ footer ul li a:hover {
         margin-right: 0;
     }
 
-    /* ====================================POPULAR COURSES==================================== */
+    /* POPULAR COURSES Style Using CSS */
 
     .courses {
         margin-top: 0;
@@ -572,7 +568,7 @@ footer ul li a:hover {
         grid-template-columns: 1fr 1fr;
     }
 
-    /* ====================================FAQ==================================== */
+    /* FAQ Style Using CSS */
     .faqs_container {
         grid-template-columns: 1fr;
     }
@@ -597,7 +593,7 @@ footer ul li a:hover {
         transform: rotate(45deg);
     }
 
-    /* ====================================FOOTER==================================== */
+    /* FOOTER Style Using CSS */
     .footer_container {
         grid-template-columns: 1fr 1fr;
         gap: 1rem 5rem;
@@ -611,27 +607,27 @@ footer ul li a:hover {
     }
 }
 
-/* ============================================================================================================================================= */
+/* Media Quaries for 960px */
 @media screen and (max-width: 960px) {
     header {
         height: 69vh;
     }
 }
 
-/* ====================================MEDIA QUARIES (PHONES)==================================================================================== */
+/* Media Quaries for PHONES */
 
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
 
-    /* ====================================NAV MENU==================================== */
+    /* NAV MENU Style Using CSS */
 
     .nav_menu {
         right: 3%;
     }
 
-    /* ====================================HEADER==================================== */
+    /* HEADER Style Using CSS */
     header {
         height: 100vh;
     }
@@ -646,15 +642,11 @@ footer ul li a:hover {
         margin-bottom: 1.3rem;
     }
 
-    /* ====================================CATEGORIES==================================== */
+    /* CATEGORIES Style Using CSS */
     .categories_right {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
     }
-
-    /* .categories_left {
-        text-align: center;
-    } */
 
     .category {
         padding: 1rem;
@@ -666,7 +658,7 @@ footer ul li a:hover {
         display: inline-block;
     }
 
-    /* ====================================COURSES==================================== */
+    /* COURSES Style Using CSS */
     .courses_container {
         grid-template-columns: 1fr;
     }
@@ -691,7 +683,7 @@ footer ul li a:hover {
         transform: rotate(45deg);
     }
 
-    /* ====================================FOOTER==================================== */
+    /* FOOTER Style Using CSS */
     .footer_container {
         grid-template-columns: 1fr;
         text-align: center;
