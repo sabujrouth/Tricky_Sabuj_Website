@@ -116,6 +116,14 @@ nav {
     z-index: 11;
 }
 
+.test {
+    display: flex;
+}
+
+.name_color {
+    color: var(--color-success);
+}
+
 /* Change Navbar Styles on Scrolling Using Javascript */
 .window-scroll {
     background-color: var(--color-bg1);
