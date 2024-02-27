@@ -33,7 +33,7 @@ To use or customize this website, follow these steps:
 
 - **Developer:** Sabuj Routh
 - **Powered by:** TRICKY TECH
-- **Website:** [www.trickysabuj.com](https://www.trickysabuj.com)
+- **Website:** [www.trickysabuj.com](https://sabujrouth.github.io/Tricky_Sabuj_Website)
 
 ## License
 
