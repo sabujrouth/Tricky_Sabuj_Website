@@ -38,9 +38,3 @@ To use or customize this website, follow these steps:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-# Tricky_Sabuj_Website
-Responsive Multipage Personal Website using HTML, CSS, JAVASCRIPT
-
-View this website:-
-https://sabujrouth.github.io/Tricky_Sabuj_Website/
